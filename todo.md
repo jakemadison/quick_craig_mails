@@ -1,0 +1,1 @@
+. pull out text body and send that as the content of the email.  No need to store in db.
