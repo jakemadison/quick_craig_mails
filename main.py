@@ -126,9 +126,10 @@ def main():
     if new_posts:
         print 'mailing new entries {}'.format(new_posts)
         mail_new_entries(new_posts)
-    else:
-        mail_new_entries(['http://vancouver.craigslist.ca/van/apa/5436583951.html'])
-        print 'no new entries'
+
+    # else:
+    #     mail_new_entries(['http://vancouver.craigslist.ca/van/apa/5436583951.html'])
+    #     print 'no new entries'
 
 
 if __name__ == '__main__':
